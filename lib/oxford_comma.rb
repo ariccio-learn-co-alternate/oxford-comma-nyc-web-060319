@@ -15,5 +15,5 @@ def oxford_comma(array)
       fmt_str += " "
     end
   end
-  fmt_str = fmt_str.chomp(", ")
+  fmt_str = fmt_str.chomp(", ").chomp(" ")
 end
