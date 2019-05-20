@@ -9,7 +9,9 @@ def oxford_comma(array)
       fmt_str += "and "
     end
     fmt_str += elem
-    fmt_str += ", "
+    if array.length > 2
+      fmt_str += ", "
+    end
   end
   fmt_str = fmt_str.chomp(", ")
 end
