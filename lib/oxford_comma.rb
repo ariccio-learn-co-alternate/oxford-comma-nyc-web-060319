@@ -4,9 +4,11 @@ def oxford_comma(array)
   end
   fmt_str = ""
   
-  array.each_with_index do |elem|
+  array.each_with_index do |elem, index|
+    if index == array.length
+      fmt_str += "and "
+    end
     fmt_str += elem
-    if ()
     fmt_str += ", "
   end
   fmt_str = fmt_str.chomp(", ")
