@@ -11,6 +11,8 @@ def oxford_comma(array)
     fmt_str += elem
     if array.length > 2
       fmt_str += ", "
+    else
+      fmt_str += " "
     end
   end
   fmt_str = fmt_str.chomp(", ")
