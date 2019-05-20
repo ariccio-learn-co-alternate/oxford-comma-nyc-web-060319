@@ -4,6 +4,6 @@ def oxford_comma(array)
   end
   fmt_str = ""
   array.each do |elem|
-    
+    fmt_str += 
   end
 end
